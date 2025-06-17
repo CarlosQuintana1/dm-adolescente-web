@@ -12,3 +12,4 @@ La pc de Irvin está bien petada xd
 
 Irvin es migajero
 Quintana es migajero
+Escribo algo
