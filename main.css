@@ -1,0 +1,254 @@
+html {
+    font-size: 17px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #1a1b3a;
+    color: white;
+}
+
+header {
+    background: linear-gradient(to right, #141843, #273094);
+    text-align: center;
+    padding: 20px 20px 35px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header img {
+    float: left;
+    padding-left: 2rem;
+}
+
+#h2fontmain {
+    text-align: center;
+    color: #adb4fc;
+    font-size: 30px;    
+}
+
+.hero {
+    height: 1066.66px;
+    background: url('fondopro.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    margin-bottom: 150px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    padding: 2rem 3rem;
+    border-radius: 20px;
+}
+
+.hero h1 {
+    text-shadow: 0px 2px 1rem rgba(0, 0, 0, 1);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.hero div h1 {
+    margin-bottom: 0;
+}
+
+.subtitulo {
+    text-shadow: 0px 2px 1rem rgba(0, 0, 0, 1);
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.btn-reproducir {
+    box-shadow: 0px 2px 1rem rgba(0, 0, 0, 0.3);
+    text-shadow: 0px 2px 1rem rgba(0, 0, 0, 0.3);
+    background: #1ed760;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 0.6rem 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    transition: background 0.2s;
+}
+
+.btn-reproducir:hover {
+    background: #1db954;
+}
+
+.botones-secundarios button {
+    box-shadow: 0px 2px 1rem rgba(0, 0, 0, 0.3);
+    text-shadow: 0px 2px 1rem rgba(0, 0, 0, 0.3);
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.botones-secundarios button:hover {
+    background: #fff;
+    color: #273094;
+}
+
+.forma {
+    margin: 0 auto;
+    font-style: italic;
+    text-align: center;
+    /* border: 5px #d29bd2 outset; */
+
+    /* dotted dashed solid double none hidden
+    ELEMENTOS TRIDIMENSIONALES groove ridge inset outset  */
+    
+    border-style: solid;
+    border-color: #5c7dd9;
+    border-radius: 50px;
+    border-width: 3px;
+    background-color: #acc9fe;
+
+    /* background-image: url('fondoDM.png'); */
+    
+    width: 600px;
+    height: 1200px;
+    
+    /* background-repeat: no-repeat;  repeat-y o x  */
+    
+    /* background-position: center center; center center, right bottom, left top, etc. */ 
+
+    background: #5c7dd9 url('fondoDM.png') no-repeat center center;
+    background-size: cover;
+    background-color: #6a8de0;
+    color: #f0f0f0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.forma:hover {
+    box-shadow: 0 0.1rem 1rem rgba(71, 37, 223, 0.689);
+}
+
+nav {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#episodios {
+    color: white;
+}
+
+#acercadma {
+    color: white;
+    margin: 10rem;
+}
+
+#nosotros {
+    color: white;
+    margin-right: 5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #8fa3b3; 
+}
+
+a:visited {
+    color: #9ab1fb; 
+}
+
+a:hover {
+    color: #5f7cdb; 
+}
+
+a:active {
+    color: #e33b3b;
+}
+
+p {
+    text-align: justify;
+    /* text-decoration: overline; */
+    /* text-shadow: 2px 3px 5px #6572ff; */
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse; /* quita los espacios entre elementos de la tabla */
+}
+
+th,td{
+    border: solid 1px #4d5e88;
+    padding: 5px;
+}
+
+th {
+    background-color: #787eda;
+    color: white;
+}
+
+tr:nth-child(even) /* odd-par ,even-impar  */ {
+    background-color: #313575;
+}
+
+tr:hover {
+    background-color: #4248a7;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #2b2c5a;
+    padding: 2rem;
+}
+
+footer section {
+    color: white;
+}
+
+footer section a {
+    transition: color 0.3s ease;
+    padding-left: 20px;
+    margin: 0;
+    float: right;
+}
+
+#contactame:link { 
+    color: #ffffff;
+}
+
+#contactame:visited {
+    color: #ffffff;
+}
+
+#contactame:hover {
+    color: #d9dbfb;
+}
+
+#iniciame:link { 
+    color: #ffffff;
+}
+
+#iniciame:visited {
+    color: #ffffff;
+}
+
+#iniciame:hover {
+    color: #d9dbfb;
+}
