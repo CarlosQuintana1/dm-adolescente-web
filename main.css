@@ -29,7 +29,7 @@ header img {
 
 .hero {
     height: 1066.66px;
-    background: url('fondopro.png') no-repeat center center;
+    background: url('assets/img/fondopro.png') no-repeat center center;
     background-size: cover;
     display: flex;
     align-items: center;
