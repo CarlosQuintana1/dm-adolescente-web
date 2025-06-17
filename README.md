@@ -9,3 +9,5 @@ prueba numero dos
 porque me fallaaaa??? pruebita
 
 La pc de Irvin está bien petada xd 
+
+La pc de QUINTANA también petó
