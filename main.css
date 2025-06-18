@@ -212,6 +212,7 @@ header img {
     font-size: 1rem;
     cursor: pointer;
     transition: background 0.2s, color 0.2s;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .botones-secundarios button:hover {
