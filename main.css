@@ -28,33 +28,120 @@ header img {
 }
 
 .hero {
-    height: 1066.66px;
+    height: 1006.66px;
     background: url('assets/img/fondopro.png') no-repeat center center;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .hero-content {
-    margin-bottom: 150px;
     position: relative;
-    z-index: 2;
     text-align: center;
     color: #fff;
-    padding: 2rem 3rem;
     border-radius: 20px;
+    padding-bottom: 50px;
 }
 
 .hero h1 {
-    text-shadow: 0px 2px 1rem rgba(0, 0, 0, 1);
+    text-shadow: 0px 4px 1rem rgba(243, 243, 243, 0.3);
     font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 0.5rem;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    height: 150px; /* Ajustar según lo que necesite */
+    pointer-events: none;
+    background: linear-gradient(to bottom, rgba(26,27,58,0) 0%, #1a1b3a 100%);
 }
 
 .hero div h1 {
     margin-bottom: 0;
+}
+
+.acercadma { 
+    background-color: aliceblue;
+    display: flex;
+}
+
+.acercadma-content {
+    background: linear-gradient(to right, #141843, #273094);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 2px 1rem rgba(0, 0, 0, 0.3);
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+span {
+    font-size: 20px;
+}
+
+.episodios {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#episodios-content {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+/* Grid de episodios estilo Figma */
+.episodios-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3rem 8rem;
+    justify-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.episodio-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 1rem rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.episodio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 2rem rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.episodio-img {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.episodio-titulo {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: #222;
+    max-width: 200px;
+    text-overflow: ellipsis;
+    margin: 0 auto;
 }
 
 .subtitulo {
@@ -65,7 +152,7 @@ header img {
     color: #FFFFFF;
     opacity: 0.7;
     margin-top: 0;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .btn-reproducir {
@@ -106,7 +193,7 @@ header img {
     color: #273094;
 }
 
-.forma {
+/* .forma {
     margin: 0 auto;
     font-style: italic;
     text-align: center;
@@ -115,20 +202,20 @@ header img {
     /* dotted dashed solid double none hidden
     ELEMENTOS TRIDIMENSIONALES groove ridge inset outset  */
     
-    border-style: solid;
+    /* border-style: solid;
     border-color: #5c7dd9;
     border-radius: 50px;
     border-width: 3px;
-    background-color: #acc9fe;
+    background-color: #acc9fe; */
 
     /* background-image: url('fondoDM.png'); */
     
-    width: 600px;
-    height: 1200px;
+    /* width: 600px;
+    height: 1200px; */
     
     /* background-repeat: no-repeat;  repeat-y o x  */
     
-    /* background-position: center center; center center, right bottom, left top, etc. */ 
+    /* background-position: center center; center center, right bottom, left top, etc. 
 
     background: #5c7dd9 url('fondoDM.png') no-repeat center center;
     background-size: cover;
@@ -141,7 +228,7 @@ header img {
 
 .forma:hover {
     box-shadow: 0 0.1rem 1rem rgba(71, 37, 223, 0.689);
-}
+} */
 
 nav {
     font-size: 1.2rem;
@@ -150,6 +237,7 @@ nav {
 }
 
 #episodios {
+    font-family: 'Montserrat Alternates', sans-serif;
     color: white;
 }
 
