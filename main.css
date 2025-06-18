@@ -340,28 +340,3 @@ footer section a {
 #iniciame:hover {
     color: #d9dbfb;
 }
-
-/* Diseño responsivo */
-html { font-size: 16px; box-sizing: border-box; }
-*, *::before, *::after { box-sizing: inherit; }
-
-/* Imágenes y multimedia adaptables */
-img, video, iframe { max-width: 100%; height: auto; }
-
-/* Contenedor fluido y centrado */
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* Media queries */
-@media (max-width: 768px) {
-  html { font-size: 14px; }
-  .container { width: 95%; }
-}
-
-@media (max-width: 480px) {
-  html { font-size: 12px; }
-  .container { width: 100%; }
-}
