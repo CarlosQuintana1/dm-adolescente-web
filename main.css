@@ -81,10 +81,6 @@ header img {
     text-align: center;
 }
 
-span {
-    font-size: 20px;
-}
-
 .episodios {
     background-color: aliceblue;
     display: flex;
@@ -98,6 +94,29 @@ span {
     color: black;
 }
 
+.nombres{
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.descrip {
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.descrip2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#logos img {
+    margin: 0 5px;
+}
+
 /* Grid de episodios estilo Figma */
 .episodios-grid {
     display: grid;
@@ -106,22 +125,27 @@ span {
     justify-items: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    
 }
 
 .episodio-card {
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
     box-shadow: 0px 2px 1rem rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.2s ease, transform 0.2s ease;
+    height: 200px; /* Altura fija para mantener el diseño 200px*/
+    overflow: hidden;
+    transition: height 1s ease;
+    interpolate-size: allow-keywords;
 }
 
 .episodio-card:hover {
     transform: translateY(-5px);
     box-shadow: 0px 4px 2rem rgba(0, 0, 0, 0.3);
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    height: auto;
+    transition: box-shadow 0.2s ease, transform 0.2s ease, height 0.6s ease;
 }
 
 .episodio-img {
@@ -129,19 +153,21 @@ span {
     height: 200px;
     background: white;
     border-radius: 8px;
-    margin-bottom: 1rem;
+}
+
+#cursiva {
+    font-style: italic;
+    text-align: center;
 }
 
 .episodio-titulo {
     width: 100%;
-    display: block;
+    color: #273094;
     text-align: center;
     font-weight: 700;
     font-size: 1.05rem;
-    color: #222;
     max-width: 200px;
-    text-overflow: ellipsis;
-    margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 .subtitulo {
