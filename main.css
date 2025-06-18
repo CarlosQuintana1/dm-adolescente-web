@@ -71,7 +71,7 @@ header img {
     display: flex;
 }
 
-.acercadma-content {
+#acercadma-content {
     background: linear-gradient(to right, #141843, #273094);
     padding: 2rem;
     border-radius: 10px;
