@@ -219,42 +219,6 @@ header img {
     color: #273094;
 }
 
-/* .forma {
-    margin: 0 auto;
-    font-style: italic;
-    text-align: center;
-    /* border: 5px #d29bd2 outset; */
-
-    /* dotted dashed solid double none hidden
-    ELEMENTOS TRIDIMENSIONALES groove ridge inset outset  */
-    
-    /* border-style: solid;
-    border-color: #5c7dd9;
-    border-radius: 50px;
-    border-width: 3px;
-    background-color: #acc9fe; */
-
-    /* background-image: url('fondoDM.png'); */
-    
-    /* width: 600px;
-    height: 1200px; */
-    
-    /* background-repeat: no-repeat;  repeat-y o x  */
-    
-    /* background-position: center center; center center, right bottom, left top, etc. 
-
-    background: #5c7dd9 url('fondoDM.png') no-repeat center center;
-    background-size: cover;
-    background-color: #6a8de0;
-    color: #f0f0f0;
-    cursor: pointer;
-    transition: all 0.3s ease;
-
-}
-
-.forma:hover {
-    box-shadow: 0 0.1rem 1rem rgba(71, 37, 223, 0.689);
-} */
 
 nav {
     font-size: 1.2rem;
