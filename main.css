@@ -128,13 +128,13 @@ header img {
     margin-bottom: 2rem;
 }
 
-@media (max-width: 932px) {
-    .episodios-grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    footer, section a {
-        font-size: 10px;
-    }
+@media (max-width: 430px) and (max-height: 932px) and (orientation: portrait) {
+  .episodios-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  footer, section a {
+    font-size: 10px;
+  }
 }
 
 .episodio-card {
