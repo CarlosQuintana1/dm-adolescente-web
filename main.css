@@ -128,6 +128,15 @@ header img {
     margin-bottom: 2rem;
 }
 
+@media (max-width: 8cm) {
+    .episodios-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer, section a {
+        font-size: 10px;
+    }
+}
+
 .episodio-card {
     background-color: white;
     display: flex;
