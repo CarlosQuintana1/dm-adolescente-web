@@ -128,7 +128,7 @@ header img {
     margin-bottom: 2rem;
 }
 
-@media (max-width: 8cm) {
+@media (max-width: 932px) {
     .episodios-grid {
         grid-template-columns: repeat(1, 1fr);
     }
